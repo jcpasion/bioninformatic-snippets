@@ -1,3 +1,4 @@
+#this file shows you at which positions two Restriction Enzymes will cut a DNA sequence 
 import re
 DNA = open("dna.txt",).read().strip("\n")
 
