@@ -1,6 +1,5 @@
 import re
-genetic_code = open("genetic_code.txt").read().strip("\n")
-DNA = "ATGTATGTA"
+genetic_code = open("genetic_code.txt").read().strip("\n") #this text file is a dictionary containing pairs of codons and corresponding AA's
 
 # list of codons from the given DNA string
 codons = []
@@ -19,5 +18,4 @@ def translate_dna(DNA):
 
 
 
-translate_dna(DNA)
 
