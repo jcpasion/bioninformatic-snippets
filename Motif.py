@@ -1,3 +1,5 @@
+#functions written and taken from Biology Meets Programming: Bioinformatics for Beginners Coursera Class
+
 import random
 
 def RandomizedMotifSearch(Dna, k, t):
