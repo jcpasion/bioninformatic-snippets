@@ -1,4 +1,4 @@
-
+# Program is used to calculate BP %'s 
 
 def BP_content(DNA):
    #make empty lists, get length of DNA, turn DNA string into list
