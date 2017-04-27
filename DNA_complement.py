@@ -1,3 +1,4 @@
+#this file gives the complement DNA strand
 f = open("rosalind_revc.txt", "r")
 
 #Convert into a list
@@ -25,4 +26,3 @@ for letter in listed_DNA:
 #Joins the list into a string with no spaces, reverses it, and prints it
 print (''.join(complement)[::-1])
 
-# I should turn this into a function
